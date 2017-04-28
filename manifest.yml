@@ -1,0 +1,10 @@
+---
+applications:
+- name: dmsjdbcups
+  memory: 512M
+  instances: 1
+  path: target/dmsjdbc-0.0.1-SNAPSHOT.jar
+services:
+- cleardbcups
+env:
+  dbservicename: cleardbcups
